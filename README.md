@@ -5,6 +5,18 @@ A small script that checks the size of a list. Runs `llen`
 on the provided selected list and returns the result to
 stdout.
 
+Installation
+---
+
+**From Source**
+
+```sh
+~ # git clone https://github.com/thejpanganiban/redis-monitor-list
+~ # cd redis-monitor-list
+~/redis-monitor-list # pip install -r requirements.txt 
+~/redis-monitor-list # ./monitor_list.py
+```
+
 Usage
 ---
 
@@ -17,11 +29,6 @@ Usage: python monitor_list.py [list]
 ```
 ~ # python monitor_list.py mylistasqueue
 23  # We have 23 items in mylistasqueue
-```
-
-*Lazy Mode*
-```
-TODO
 ```
 
 Configuration
@@ -48,3 +55,8 @@ Port of which redis is exposed.
 *Default: 0*
 
 The db instance to check against.
+
+Advanced Usage
+---
+
+TODO
